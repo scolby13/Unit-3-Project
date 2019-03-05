@@ -1,0 +1,135 @@
+/* Base Styles */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
+}
+ 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    padding: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+
+}
+
+/* Header Styles */
+
+header {
+    top: 0;
+    background: rgb(202, 202, 202);
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.main-nav li {
+    font-weight: bold;
+    padding: 10px;
+    margin: 6px;
+    text-transform: uppercase;
+    background: #fff;
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+/* Class Styles */
+
+.main-heading {
+    margin: 0;
+    padding: 10px;
+    background: rgb(202, 202, 202);
+}
+
+.main-content {
+    max-width: 1440px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.section-heading {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+}
+
+.intro {
+    background: rgb(202, 202, 202);
+    padding-bottom: 20px;
+}
+
+.intro img {
+    width: 70%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.projects {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.portfolio li {
+    padding: 15px;
+}
+
+.contact {
+    background: rgb(202, 202, 202);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background: rgb(202, 202, 202);
+}
+footer h2 {
+    float: left;
+    margin: 20px;
+}
+
+footer a {
+    float: right;
+    margin: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.footer {
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
