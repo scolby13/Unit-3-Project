@@ -1,0 +1,200 @@
+
+/* Base Style */
+
+* {
+    font-family: 'Pontano Sans', sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #555555;
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Lalezar';
+    font-size: 1.5rem;
+}
+p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Header Style */
+
+header {
+    background: #505050;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0 auto;
+}
+
+/* Heading Style */
+
+.main-heading {
+    margin-bottom: 2px;
+    width: 100%;
+}
+.main-heading h1 {
+    text-align: center;
+}
+
+.main-heading p {
+    border-bottom: 4px black solid;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Form Style */
+
+.main-heading,
+fieldset,
+.newsletter {
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+.contact {
+    display: flex;
+    border: none;
+    padding-bottom: 20px;
+}
+
+label {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.newsletter {
+    display: inline;
+    border: none;
+    width: 100%;
+}
+
+.zip {
+    max-width: 120px;
+}
+
+fieldset > legend {
+    border-top: 2px black solid;
+}
+
+.newsletter p {
+    text-align: left;
+}
+
+.newsletter-label,
+.textarea-label {
+    margin: 10px 0;
+    display: block;
+}
+
+.checkbox-label,
+.radio-label {
+margin-left: 10px;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #505050;
+    text-align: left;
+    width: 100%;
+}
+
+
+
+::placeholder {
+    text-align: right;
+    padding: 5px;
+}
+
+.contact input,
+.contact select {
+    width: 100%;
+}
+
+input,
+select,
+textarea {
+    background-color: #d3d3d3;
+    border-radius: 4px;
+    padding: 8px;
+    border: none;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin-left: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    
+}
+
+textarea {
+    width: 100%;
+}
+.signup {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: #52bbb3;
+    border-radius: 4px;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer > p {
+    color: #d3d3d3;
+    font-style: italic;
+}
+
+@media (min-width:768px) {
+    .wrapper {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .contact,
+    .contact label,
+    .contact input {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: auto;
+    }
+
+    li {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: auto;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    li > label {
+        text-align: left;
+        margin: 0;
+        flex: 1;
+        
+    }
+
+    li > input,
+    li > select {
+        flex: 2;
+    }
