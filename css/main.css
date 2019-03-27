@@ -59,7 +59,6 @@ fieldset,
     margin: 0 auto;
 }
 .contact {
-    display: flex;
     border: none;
     padding-bottom: 20px;
 }
@@ -79,10 +78,9 @@ li > input,
 li > select {
     padding: 15px;
 }
-/* label {
-    padding-top: 8px;
-    padding-bottom: 8px;
-} */
+#state {
+    padding: 15px;
+}
 
 .newsletter {
     display: inline;
@@ -186,17 +184,7 @@ footer > p {
         width: 100%;
     }
 
-    .contact,
-    .contact label,
-    .contact input {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: auto;
-    }
-
     li {
-        display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         width: auto;
