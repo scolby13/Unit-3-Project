@@ -64,10 +64,25 @@ fieldset,
     padding-bottom: 20px;
 }
 
-label {
+li {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li > label {
+    margin: 5px;
+}
+
+li > input,
+li > select {
+    padding: 15px;
+}
+/* label {
     padding-top: 8px;
     padding-bottom: 8px;
-}
+} */
 
 .newsletter {
     display: inline;
@@ -83,14 +98,16 @@ fieldset > legend {
     border-top: 2px black solid;
 }
 
-.newsletter p {
+fieldset > p {
     text-align: left;
+    padding-bottom: 0;
 }
 
 .newsletter-label,
 .textarea-label {
     margin: 10px 0;
     display: block;
+    padding-top: 20px;
 }
 
 .checkbox-label,
@@ -184,7 +201,8 @@ footer > p {
         flex-direction: row;
         width: auto;
         justify-content: space-between;
-        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     li > label {
@@ -197,4 +215,5 @@ footer > p {
     li > input,
     li > select {
         flex: 2;
+        padding: 15px;
     }
