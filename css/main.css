@@ -103,7 +103,7 @@ li > label {
 }
 
 .zip {
-    max-width: 120px;
+    width: 50%;
 }
 
 fieldset > legend {
@@ -137,8 +137,6 @@ legend {
     font-family: 'Lalezar';
 }
 
-
-
 ::placeholder {
     text-align: right;
     padding: 5px;
@@ -146,11 +144,6 @@ legend {
 
 .contact li:nth-child(n+3)::placeholder {
     text-align: left;
-}
-
-.contact input,
-.contact select {
-    width: 100%;
 }
 
 input,
@@ -232,5 +225,10 @@ footer > p {
     li > select {
         flex: 2;
         padding: 15px;
+    }
+
+    .zip {
+        flex: 1;
+        margin-right: 32%;
     }
 }
