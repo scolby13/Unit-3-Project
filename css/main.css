@@ -138,8 +138,6 @@ legend {
     font-family: 'Lalezar';
 }
 
-
-
 ::placeholder {
     text-align: right;
     padding: 5px;
@@ -148,11 +146,6 @@ legend {
 .contact li:nth-child(n+3)::placeholder {
     text-align: left;
 }
-
-/* .contact input,
-.contact select {
-    width: 100%;
-} */
 
 input,
 select,
