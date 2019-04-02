@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,9 +20,12 @@
         <h1>Signup for our newsletter</h1>
         <p>Get the latest news on how your code is doing right in your inbox</p>
     </div>
+
     <form>
+        <div class="contact-info">
         <fieldset class="contact">
-            <legend><h1>Contact Information</h1></legend>
+            <legend>Contact Information</legend>
+            <ul>
             <li>
             <label for="name" class="label-name">Full Name</label>
             <input type="text" id="name" name="user_name" class="input-name" placeholder="required" required>
@@ -33,20 +36,20 @@
             </li>
             <li>
             <label for="phone_number" class="label-number">Phone Number</label>
-            <input type="tel" id="phone_number" name="user_phone" class="input-number" >
+            <input type="tel" id="phone_number" name="user_phone" class="input-number" placeholder="phone number">
             </li>
             <li>
             <label for="address" class="label-street">Street Address</label>
-            <input type="text" id="address" name="user_address" class="input-address" >
+            <input type="text" id="address" name="user_address" class="input-address" placeholder="street address">
             </li>
             <li>
             <label for="city" class="label-city">City</label>
-            <input type="text" id="city" name="user_city">
+            <input type="text" id="city" name="user_city" placeholder="city">
             </li>
             <li>
-            <label for="state" class="label-state" class="input-state" >State</label>
+            <label for="state" class="label-state input-state" >State</label>
             <select id="state" name="user_state">
-                <optgroup>
+                <optgroup label="State">
                     <option value="" selected="selected" class="state-placeholder">Choose State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -104,12 +107,14 @@
             </li>
             <li>
             <label for="zip_code" class="label-zip">Zip Code</label>
-            <input type="text" id="zip_code" name="user_zip_code" class="zip">
+            <input type="text" id="zip_code" name="user_zip_code" class="zip" placeholder="zip">
             </li>
+        </ul>
         </fieldset>
+        </div>
 
         <fieldset class="newsletter">
-            <legend><h1>Newsletter</h1></legend>
+            <legend>Newsletter</legend>
             <p>Select the newsletters you would like to receive</p>
             <input type="checkbox" id="html_news" value="html_news" name="subscribed_newsletters" class="checkbox"><label for="html_news" class="checkbox-label">HTML News</label><br>
             <input type="checkbox" id="css_news" value="css_news" name="subscribed_newsletters" class="checkbox"><label for="css_news" class="checkbox-label">CSS News</label><br>
@@ -119,7 +124,7 @@
             <input type="radio" id="html" name="format"><label for="html" class="radio-label">HTML</label><br>
             <input type="radio" id="plain_text" name="format"><label for="plain_text" class="radio-label">Plain Text</label><br>
             <label for="comments" class="textarea-label">Other topics you would like to hear about</label>
-            <textarea id="comments" name="user_comments" rows="5"></textarea>
+            <textarea id="comments" name="user_comments" rows="5" placeholder="tell us what else you are interested in..."></textarea>
             <button type="submit" class="signup">Sign Up</button>
         </fieldset>
     </form>
