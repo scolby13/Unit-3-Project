@@ -104,7 +104,7 @@ li > label {
 }
 
 .zip {
-    max-width: 120px;
+    width: 50%;
 }
 
 fieldset > legend {
@@ -149,10 +149,10 @@ legend {
     text-align: left;
 }
 
-.contact input,
+/* .contact input,
 .contact select {
     width: 100%;
-}
+} */
 
 input,
 select,
@@ -243,5 +243,10 @@ footer > p {
     li > select {
         flex: 2;
         padding: 15px;
+    }
+
+    .zip {
+        flex: 1;
+        margin-right: 32%;
     }
 }
