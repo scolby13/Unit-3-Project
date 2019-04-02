@@ -76,7 +76,6 @@ fieldset,
 }
 
 .contact {
-    display: flex;
     border: none;
     padding-bottom: 20px;
 }
@@ -212,17 +211,7 @@ footer > p {
         width: 100%;
     }
 
-    .contact,
-    .contact label,
-    .contact input {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: auto;
-    }
-
     li {
-        display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         width: auto;
